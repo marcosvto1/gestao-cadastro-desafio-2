@@ -25,7 +25,7 @@ const ASide = styled.div`
   }
 `;
 
-export default {
+export {
   Wrapper,
   WrapperContent,
   ASide

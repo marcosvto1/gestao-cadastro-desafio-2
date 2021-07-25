@@ -28,7 +28,7 @@ const MenuLink = styled.a`
   }
 `;
 
-export default {
+export {
   Wrapper,
   Logo,
   Menu,

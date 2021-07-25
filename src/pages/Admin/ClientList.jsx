@@ -1,8 +1,6 @@
 import { NavLink } from "react-router-dom";
-import Button from "../../components/Button";
 import ClientList from "../../components/Client/List";
 import Grid from "../../components/Grid";
-import FormInput from "../../components/Input";
 import Template from "../../components/Template";
 
 export default function AdminClientListPage() {

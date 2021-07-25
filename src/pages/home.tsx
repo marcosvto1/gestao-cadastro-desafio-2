@@ -1,5 +1,4 @@
 import * as React from 'react';
-import Card from '../components/Card';
 import Dashboard from '../components/Dashboard';
 import Template from '../components/Template';
 import { Client } from '../models/client';

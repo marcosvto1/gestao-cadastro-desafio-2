@@ -1,8 +1,6 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import HomePage from './pages/home';
-import { BrowserRouter, Route, Router, Switch } from 'react-router-dom';
+import { BrowserRouter, Route } from 'react-router-dom';
 import AdminClientListPage from './pages/Admin/ClientList';
 import AdminClientFormPage from './pages/Admin/ClientForm';
 import AdminProductFormPage from './pages/Admin/ProductForm';

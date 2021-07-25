@@ -1,5 +1,4 @@
 import { FormProductContract } from './../contracts/form-product.contract';
-import { FormClientContract } from './../contracts/form-client.contract';
 import { Model } from "./model";
 
 export class Product extends Model {

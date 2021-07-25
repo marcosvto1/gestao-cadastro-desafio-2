@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import { NavLink, useParams } from 'react-router-dom'
-import { FormClientContract } from '../../../contracts/form-client.contract'
-import { useHistory } from 'react-router-dom'
 import { Client } from '../../../models/client'
 import Button from '../../Button'
 import Grid from '../../Grid'
@@ -30,7 +28,7 @@ const ClientForm = (props: Props) => {
   useEffect(() => {
     const clients = new Client().find();
     setForm({ ...(clients.find((item: any) => item.id === id)) })
-  }, []);
+  }, [id]);
 
   function handleValue(e: React.ChangeEvent<HTMLInputElement>) {
     setForm({ ...form, [e.target.name]: e.target.value });

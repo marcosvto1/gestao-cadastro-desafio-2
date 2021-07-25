@@ -1,5 +1,5 @@
 import * as React from 'react';
-import Styles from './style';
+import * as Styles from './style';
 export interface IHeaderProps {
 }
 
