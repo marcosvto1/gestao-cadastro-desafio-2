@@ -19,22 +19,3 @@ const products = [
     ]
   }
 ]
-
-
-/// Produtos
-// 1 Camiseta Node js
-   // Imagem
-  // skus
-    // - 1 Camiseta node - Tamanho P - Cor Preto
-    // - 2 Camiseta node - Tamanho M - Cor Preto
-    // - 3 Camiseta node - Tamanho G - Cor Preto
-    // - 4 Camiseta node - Tamanho P - Cor Cinza
-    // - 5 Camiseta node - Tamanho M - Cor Cinza
-    // - 6 Camiseta node - Tamanho G - Cor Cinza
-    // Cor e Tamanho são caracteristicas
-
-
-/* 
-O Produto é aquilo que é ofertado na vitrine da loja. Quando se oferta um item, uma loja não costuma exibir em sua vitrine detalhes específicos de um produto, como o tamanho da camiseta. O que se vende é a "Camiseta masculina com estampa", mas o que o cliente compra é a "Camiseta masculina com estampa - Tamanho M".
-O entendimento do conceito de produto influencia diretamente na estratégia de exibição de itens na vitrine da loja. Os produtos é que são exibidos nas vitrines, enquanto os SKUs são selecionados pelo cliente já dentro da página do produto.
-*/
